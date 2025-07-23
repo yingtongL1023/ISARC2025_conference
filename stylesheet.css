@@ -155,11 +155,11 @@ span.highlight {
 }
 
 .authors a {
-  color: #2e7d32;
+  color: #2e7d32 !important; /* 强制绿色 */
   text-decoration: underline;
   transition: color 0.2s ease;
 }
 
 .authors a:hover {
-  color: #1a73e8; /* 蓝色 */
+  color: #1a73e8 !important; /* 鼠标悬停时浅蓝色 */
 }
