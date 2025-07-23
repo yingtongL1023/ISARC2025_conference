@@ -153,3 +153,13 @@ span.highlight {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.authors a {
+  color: #2e7d32;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.authors a:hover {
+  color: #1a73e8; /* 蓝色 */
+}
