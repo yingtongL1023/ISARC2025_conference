@@ -1,14 +1,3 @@
-.authors a {
-  color: #2e7d32 !important;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: color 0.2s ease;
-}
-
-.authors a:hover {
-  color: #1a73e8 !important;
-}
-
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
@@ -165,3 +154,14 @@ span.highlight {
   margin-bottom: 20px;
 }
 
+/* 所有字体设置、a标签样式等写完之后 */
+.authors a {
+  color: #2e7d32 !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.authors a:hover {
+  color: #1a73e8 !important;
+}
